@@ -32,3 +32,8 @@ def update_grid(grid):
     for row in grid:
         for col in row:
             grid[row][col] = apply_rules(grid, row, col)
+
+
+def main():
+    grid =  initial_grid()
+    new = draw_grid(grid)
